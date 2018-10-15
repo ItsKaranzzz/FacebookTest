@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Facebook_LoginTest]">
+  <test name="LoginTest">
+    <classes>
+      <class name="testcases.FacebookLoginTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="testcases.FacebookLoginTest">
+        <methods>
+          <include name="postMessageTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.FacebookLoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Facebook_LoginTest] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook_LoginTest" duration-ms="122937" started-at="2018-10-14T16:16:40Z" finished-at="2018-10-14T16:18:43Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="122937" started-at="2018-10-14T16:16:40Z" finished-at="2018-10-14T16:18:43Z">
+      <class name="testcases.FacebookLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.FacebookLoginTest@1593948d]" name="setup" is-config="true" duration-ms="56638" started-at="2018-10-14T21:46:40Z" finished-at="2018-10-14T21:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postMessageTest()[pri:0, instance:testcases.FacebookLoginTest@1593948d]" name="postMessageTest" duration-ms="8813" started-at="2018-10-14T21:47:37Z" finished-at="2018-10-14T21:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMessageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FacebookLoginTest@1593948d]" name="tearDown" is-config="true" duration-ms="1126" started-at="2018-10-14T21:47:46Z" finished-at="2018-10-14T21:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.FacebookLoginTest@1593948d]" name="setup" is-config="true" duration-ms="52451" started-at="2018-10-14T21:47:47Z" finished-at="2018-10-14T21:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postedonProfileTest()[pri:0, instance:testcases.FacebookLoginTest@1593948d]" name="postedonProfileTest" duration-ms="2514" started-at="2018-10-14T21:48:39Z" finished-at="2018-10-14T21:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postedonProfileTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FacebookLoginTest@1593948d]" name="tearDown" is-config="true" duration-ms="1369" started-at="2018-10-14T21:48:42Z" finished-at="2018-10-14T21:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FacebookLoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Facebook_LoginTest -->
+</testng-results>
